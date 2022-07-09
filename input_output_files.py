@@ -1,4 +1,13 @@
-myfile1=open('file1.txt')
-print(myfile1.read())
-myfile1.seek(0)#seek is used to adjust cursor to which ever position you want to bring it.
-print(myfile1.read())
+def first_last6(nums):
+  
+  if nums[0]==6 or nums[len(nums)-1]==6:
+    return True
+  else:
+    return False
+
+
+print(first_last6([1,23,4,6]))
+    
+
+    
+    
